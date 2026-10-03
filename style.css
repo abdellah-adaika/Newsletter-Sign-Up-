@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@400;500;700&display=swap');
+
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+:root {
+   Red: hsl(4, 100%, 67%)
+- Blue 800: hsl(234, 29%, 20%)
+- Blue 700: hsl(235, 18%, 26%)
+- Grey: hsl(0, 0%,58%)
+- White: hsl(0, 0%, 100%)
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-card .signup-image {
+  width:360px;
+  margin-bottom:30px;
+}
+
+.signup-card h1 {
+  margin-left:22px;
+  color: hsl(234, 29%, 20%);
+  font-size: 38px;
+  margin-bottom: 25px;
+  font-weight: 700;
+  
+}
+
+.signup-card p {
+  margin-left:22px;
+  font-size: 16px;
+  margin-bottom:20px;
+  line-height: 1.6;
+  color: hsl(235, 18%, 26%);
+  font-weight:500;
+  opacity:0.9;
+}
+
+.benefits {
+  margin-left:22px;
+  list-style:none;
+  margin-bottom:40px;
+}
+
+.benefits li {
+  display:flex;
+  align-items:flex-start;
+  gap:15px;
+  margin-bottom:12px;
+}
+
+.benefits li img {
+  width:20px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.benefits li span {
+  line-height:1.5;
+  color: hsl(235, 18%, 26%);
+  font-weight: 500;
+  opacity:0.9;
+}
+
+.signup-form {
+  margin-left:22px;
+  margin-bottom:30px;
+}
+
+.form-header {
+  display:flex;
+  justify-content:space-between;
+  font-size:12px;
+  font-weight:700;
+  color: hsl(234, 29%, 20%);
+  margin-bottom:7px;
+}
+
+.error-message {
+  display:none;
+  margin-right:26px;
+  color: hsl(4, 100%, 67%);
+}
+.signup-form input {
+  width:92%;
+  border:1px solid hsl(0, 0%,58%);
+  border-radius: 8px;
+  padding:15px 20px;
+  font-size:16px;
+  margin-bottom: 20px;
+}
+
+.signup-form button {
+  width:92%;
+  background-color: hsl(234, 29%, 20%);
+  color:white;
+  font-weight:700;
+  font-size:15px;
+  text-align:center;
+  border-radius:8px;
+  padding:17px 0;
+  border:none;
+}
+
+
+.success-message {
+  padding-top:100px;
+  margin-left: 22px;
+  margin-bottom:30px;
+  display:none;
+}
+
+.success-message img {
+  width:60px;
+  margin-bottom:25px;
+}
+
+.success-message h1 {
+  font-size:40px;
+  color: hsl(234, 29%, 20%);
+  font-weight:700;
+  line-height:1.1;
+  margin-bottom: 20px;
+}
+
+.success-message p {
+  line-height:1.5;
+  margin-bottom:180px;
+}
+
+.dismiss-btn {
+  width:92%;
+  background-color: hsl(234, 29%, 20%);
+  color:white;
+  font-weight:700;
+  font-size:15px;
+  text-align:center;
+  border-radius:8px;
+  padding:17px 0;
+  border:none;
+}
+
+#email.input-error {
+  border:1px solid hsl(4, 100%, 67%);
+  color: hsl(4, 100%, 67%);
+  background-color:#ffe8e6;
+}
